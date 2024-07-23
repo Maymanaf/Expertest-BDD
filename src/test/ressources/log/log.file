@@ -1,0 +1,9 @@
+2022-01-30 16:18:54,701 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2022-01-30 16:18:58,208 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2022-01-30 16:18:58,252 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the button Commencez$
+2022-01-30 16:19:03,808 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check  Page Mon Compte is opening$
+2022-01-30 16:19:08,397 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the button J achète$
+2022-01-30 16:19:19,416 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check  Page Boutique is opening$
+2022-01-30 16:19:20,932 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the button passez le quizz$
+2022-01-30 16:19:42,309 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check  Page Boutique is opening$
+2022-01-30 16:19:49,921 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$

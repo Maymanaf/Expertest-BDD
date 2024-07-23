@@ -1,0 +1,28 @@
+stages:
+    - compile
+    - test
+    
+        
+Compile:
+    stage: compile
+    tags :
+     - docker
+    script: 
+      - mvn compile
+    
+        
+Testing:
+    stage: test
+    tags :
+     - docker
+    script:
+      - mvn test
+    artifacts:
+      when: always
+      reports:
+       junit:
+        - target/cucumber-reports/Expertest.html
+        - sndem/send_email -M -A 
+         - Notify.test_email('mguerrira@improve-software.com', 'Message Subject', 'Message Body').deliver_now
+     
+
